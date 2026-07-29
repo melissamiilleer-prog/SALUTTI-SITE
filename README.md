@@ -55,3 +55,4 @@ dados de mercado) foram redigidos com base no material institucional da SALUTTI.
 Informações comerciais específicas de propostas a clientes (valores de
 mensalidade, comissão, dados de clientes individuais) não foram incluídas por
 não serem apropriadas para um site público.
+
