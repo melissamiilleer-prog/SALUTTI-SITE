@@ -1216,7 +1216,7 @@ p{ margin:0 0 1em; }
   padding-bottom:26px; border-bottom:1px solid rgba(27,94,32,0.1);
 }
 .footer-logo-link{ flex:none; display:inline-flex; align-items:center; }
-.brand-mark-footer{ height:44px; opacity:1; display:block; }
+.brand-mark-footer{ height:44px; width:auto; opacity:1; display:block; }
 .footer-links-group{ display:flex; align-items:center; gap:22px; flex-wrap:wrap; }
 .footer-divider{ width:1px; height:30px; background:rgba(27,94,32,0.15); flex-shrink:0; }
 .footer-nav{ display:flex; flex-direction:row; flex-wrap:wrap; align-items:center; gap:8px 22px; }
