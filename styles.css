@@ -708,7 +708,7 @@ p{ margin:0 0 1em; }
 /* --- Cenário Potencial: Quem pode vender / Onde estão as oportunidades (layout "Opção 1") --- */
 .oportunidades-section{ background:var(--forest-mist); }
 .oportunidades-card{ background:#fff; border-radius:var(--radius-lg); padding:48px 50px 44px; box-shadow:var(--shadow-1); }
-.oportunidades-grid{ display:grid; grid-template-columns:0.8fr 1px 1.55fr; gap:52px; align-items:start; }
+.oportunidades-grid{ display:grid; grid-template-columns:0.8fr 1px 1.55fr; gap:52px; align-items:stretch; }
 .oportunidades-divider{ align-self:stretch; background:rgba(27,94,32,0.12); }
 @media (max-width:900px){
   .oportunidades-card{ padding:32px 22px 30px; }
@@ -723,7 +723,8 @@ p{ margin:0 0 1em; }
 .oportunidades-col-right .mapa-oportunidades{ width:100%; }
 
 /* Coluna esquerda: etapas numeradas com linha de conexão */
-.oportunidades-steps{ display:flex; flex-direction:column; gap:0; }
+.oportunidades-col-left{ display:flex; flex-direction:column; height:100%; }
+.oportunidades-steps{ display:flex; flex-direction:column; gap:0; flex:1; justify-content:center; }
 .oportunidades-step{ position:relative; display:flex; gap:16px; padding-bottom:30px; }
 .oportunidades-step:last-child{ padding-bottom:0; }
 .oportunidades-step-num{
